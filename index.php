@@ -23,5 +23,20 @@ $cli = new Cliente;
 $cli ->nome = "Nathan";
 $cli ->idade = 27;
 $cli ->endereco = "Rua A, 123";
-$cli ->telefone = "(41) - 9 - XXXX-XXXX";
-$cli ->compar();
+$cli ->telefone = "(41)XXXX-XXXX";
+$cli ->comprar();
+
+$nomeClasse = "Produto";
+$instacia = new $nomeClasse;
+var_dump($instacia);
+
+$cli2 = new $cli1;
+$nomeClasse2 = get_class($cli);
+$cli3 - new $nomeClasse2;
+$cli3 ->nome = "Maria";
+var_dump($cli);
+echo "<br>";
+var_dump($cli2);
+echo "<br>";
+var_dump($cli3);
+echo "<br>";
