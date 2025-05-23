@@ -8,6 +8,9 @@ class Cliente
     public $telefone;
 
     function comprar(){
-        echo "O cliente fez uma compra";
+        echo "O cliente {$this->nome} realizou uma compra";
+    }
+    function definirNome($nome){
+        $this -> nome = $nome;
     }
 }
