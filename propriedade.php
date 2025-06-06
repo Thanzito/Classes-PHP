@@ -9,6 +9,6 @@ $prod1->preco = 3.50;
 $prod1->desconto = 0.10;
 
 //$prod1 -> definaCodigoBarras("78949000000000");
-$prod1 -> definaCodigoBarras("78949000000000");
+$prod1 -> acessaCodigoBarraas();
 
 var_dump($prod1);

@@ -6,6 +6,8 @@ class Produto
    public $titulo;
    public $descricao = "Salgadinho";
    public $preco;
+   public $codigoBarras;
+   public $desconto;
 
    public function defineCodigoBarras($codigo)
    {
